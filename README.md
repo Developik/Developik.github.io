@@ -1,3 +1,3 @@
 # developik.github.io
 
-You will a quick intro to my skills on this page.
+You will find a quick intro to my skills on this page.

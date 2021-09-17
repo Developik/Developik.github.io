@@ -55,22 +55,24 @@ function App() {
             <Col sm style={{
               display: 'flex', flexDirection: 'column', alignItems: 'center', alignContent: 'center'
             }}>
-              <div className="myblock" onClick={event => window.open('https://play.google.com/store/apps/details?id=com.KudosGraph.KudosGraph', '_blank')}
+              <div style={{ margin: "10px 10px 10px 10px", }}>
+                <div className="myblock" onClick={event => window.open('https://play.google.com/store/apps/details?id=com.KudosGraph.KudosGraph', '_blank')}
 
-                onMouseEnter={() => {
-                  setHover(true);
-                }}
-                onMouseLeave={() => {
-                  setHover(false);
-                }}
+                  onMouseEnter={() => {
+                    setHover(true);
+                  }}
+                  onMouseLeave={() => {
+                    setHover(false);
+                  }}
 
-                style={{
-                  width: '300px', height: '300px', margin: "10px 10px 10px 10px",
-                  backgroundColor: "rgba(0,0,0,0.7)", borderRadius: 25, padding: 10, cursor: 'pointer'
-                }}>
-                <p>Graph/Chart App</p>
-                <div className="img-wrapper">
-                  <div className="kudosgraph" />
+                  style={{
+                    width: '250px', height: '250px',
+                    backgroundColor: "rgba(0,0,0,0.7)", borderRadius: 25, padding: 10, cursor: 'pointer'
+                  }}>
+                  <p>Graph/Chart App</p>
+                  <div className="img-wrapper">
+                    <div className="kudosgraph" />
+                  </div>
                 </div>
               </div>
             </Col>
@@ -81,7 +83,7 @@ function App() {
               <div style={{ margin: "10px 10px 10px 10px", }}>
                 <div className="myblock" onClick={event => window.open('https://stark-everglades-78872.herokuapp.com/djangoapp/', "_blank")}
                   style={{
-                    width: '300px', height: '300px',
+                    width: '250px', height: '250px',
                     backgroundColor: "rgba(0,0,0,0.7)", borderRadius: 25, padding: 10, cursor: 'pointer'
                   }}>
                   <p>Dealerships Website</p>
@@ -96,13 +98,10 @@ function App() {
             <Col sm style={{
               display: 'flex', flexDirection: 'column', alignItems: 'center', alignContent: 'center'
             }}>
-              <div className="myblock" style={{
-                width: '300px', height: '300px', margin: "10px 10px 10px 10px",
-                backgroundColor: "rgba(0,0,0,0.7)", borderRadius: 25, padding: 10, cursor: 'pointer'
-              }}>
+              <div style={{ margin: "10px 10px 10px 10px", }}>
                 <div className="myblock" onClick={event => window.open('https://vctlimited.ca', "_blank")}
                   style={{
-                    width: '300px', height: '300px',
+                    width: '250px', height: '250px',
                     backgroundColor: "rgba(0,0,0,0.7)", borderRadius: 25, padding: 10, cursor: 'pointer'
                   }}>
                   <p>
@@ -118,12 +117,14 @@ function App() {
             <Col sm style={{
               display: 'flex', flexDirection: 'column', alignItems: 'center', alignContent: 'center'
             }}>
-              <div className="myblock" style={{
-                width: '300px', height: '300px', margin: "10px 10px 10px 10px",
-                backgroundColor: "rgba(0,0,0,0.7)", borderRadius: 25, padding: 10, cursor: 'pointer'
-              }}>
+              <div style={{ margin: "10px 10px 10px 10px", }}>
+                <div className="myblock" style={{
+                  width: '250px', height: '250px', margin: "10px 10px 10px 10px",
+                  backgroundColor: "rgba(0,0,0,0.7)", borderRadius: 25, padding: 10, cursor: 'pointer'
+                }}>
 
-                More is coming...
+                  More is coming...
+                </div>
               </div>
             </Col>
           </Row>

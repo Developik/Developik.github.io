@@ -28,8 +28,8 @@
 }
 
 .kudosgraph {
-  height: 20vmin;
-  width: 20vmin;
+  height: 100px;
+  width: 100px;
   pointer-events: none;
   border-radius: 15vmin;
   border-color: black;
@@ -43,8 +43,8 @@
 }
 
 .carwebsite{
-  height: 20vmin;
-  width: 20vmin;
+  height: 100px;
+  width: 100px;
   pointer-events: none;
   border-radius: 15vmin;
   border-color: black;
@@ -58,8 +58,8 @@
 }
 
 .vctlimited{
-  height: 20vmin;
-  width: 20vmin;
+  height: 100px;
+  width: 100px;
   pointer-events: none;
   border-radius: 15vmin;
   border-color: black;
@@ -109,7 +109,7 @@
 
 .myblock:hover{
   height: '50vmin';
-  transform: scale(1.1);
+  transform: scale(1.2);
   transform: translateX(50px, 100px);
 }
 
